@@ -10,14 +10,19 @@
 
 <body>
     <header>
-        <h1>Minefield Grid</h1>
-        <div class="btns-container">
-            <button type="button" class="btn" id="generateGrid">Play</button>
-            <select id="gridLevel">
-                <option value="10">Easy</option>
-                <option value="9">Hard</option>
-                <option value="7">Crazy</option>
-            </select>
+        <div class="header-container">
+            <h1>Minefield Grid</h1>
+            <div class="btns-container">
+                <div class="input-group">
+                    <label for="gridLevel">Level: </label>
+                    <select id="gridLevel">
+                        <option value="10">Easy</option>
+                        <option value="9">Hard</option>
+                        <option value="7">Crazy</option>
+                    </select>
+                </div>
+                <button type="button" class="btn" id="generateGrid">Play</button>
+            </div>
         </div>
     </header>
 
@@ -27,6 +32,9 @@
         </div>
     </main>
 
+    <footer>
+        <p>Made with &hearts; (and mines)</p>
+    </footer>
     <script type="text/javascript" src="js/main.js"></script>
 </body>
 
